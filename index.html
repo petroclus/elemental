@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Elemental</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="main.min.css">
+</head>
+
+<body>
+  <div>
+    <div id="app-background" style="position: absolute; background: url(assets/glade.jpg) 0px 0px no-repeat; background-size: contain; top: 0;"></div>
+    <div id="app-game" style="position: absolute; left: 0px; top: 0px; z-index: auto; width:0px; height:0px;"></div>
+    <div id="app-help" style="visibility: hidden; position: absolute; top: 0; bottom: 0; left:0; right:0; z-index: 1000;">
+      <div id="app-scroll" style="-webkit-overflow-scrolling: touch; position: absolute; top: 40px; bottom: 40px; width:88%; margin-left: 6%; text-align:center; background-color: #FFF; overflow-y: scroll; box-shadow: -1px 2px 15px -1px #000;">
+        <div id="app-help-content" style="margin:30px;"></div>
+      </div>
+      <div style="position:fixed;">
+        <button style="margin:5px; background-color:transparent; border:none; padding:0px" onclick="toggleHelp()" BackColor="Transparent">
+          <img src="assets/help-close.png"/>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="phaser-arcade-physics.min.js"></script>
+  <script src="main.min.js"></script>
+  <script src="elements.js"></script>    
+
+  <script>
+    window.addEventListener("load",function() {
+      setTimeout(function(){
+        document.addEventListener("touchmove", function(e){ e.preventDefault(); }, false);
+        document.getElementById('app-scroll').addEventListener('touchmove', function(e){e.stopPropagation()}, false);
+        window.scrollTo(0, 1);
+      }, 0);
+    });
+
+    function toggleHelp() {
+      el = document.getElementById("app-help");
+      el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+      window.scrollTo(0, 1);
+    }
+  </script>
+
+</body>
+</html>
+
