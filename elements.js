@@ -4,7 +4,7 @@ var elements =
 {
     settings : {
         useCustomAutoplayFeature : true,
-        disablePauseOnLostFocus : false,
+        disablePauseOnLostFocus : true,
         disableSlamStopOption: true,
         disableWinVisualCancellation: false,
         bigWinMul : 15,
@@ -28,6 +28,7 @@ var elements =
                 is: 'Staða ',
                 it: 'Saldo ',
                 ja: '残高 ',
+                ko: '밸런스',
                 lt: 'Balansas ',
                 lv: 'Atlikums ',
                 nl: 'Saldo ',
@@ -41,6 +42,7 @@ var elements =
                 sv: 'Saldo ',
                 th: 'ยอดเงินคงเหลือ ',
                 tr: 'Bakiye ',
+                vi: 'Số dư',
                 zh: '资金 '
             }
         },
@@ -60,6 +62,7 @@ var elements =
                 is: 'Heildarveðmál ',
                 it: 'Puntata totale ',
                 ja: '合計ベット ',
+                ko: '총 베팅',
                 lt: 'Bendros lažybos ',
                 lv: 'Kopējā likme ',
                 nl: 'Totale inzet ',
@@ -73,6 +76,7 @@ var elements =
                 sv: 'Total insats ',
                 th: 'เดิมพันรวม ',
                 tr: 'Toplam Bahis ',
+                vi: 'Tổng cược',
                 zh: '总赌注 '
             }
         }
@@ -94,6 +98,7 @@ var elements =
                 is: 'Wild-tákn dreifist\nyfir allt hjólið og\nveitir 1 frísnúning.',
                 it: 'Un Wild si estende sull\n\'intero rullo e garantisce\n1 giro gratuito.\'',
                 ja: '"ワイルドはリール全体に影響し、\nフリースピンが\n1回与えられます。"',
+                ko: '와일드가 전체\n릴로 확장되고 1 무료\n스핀을 제공합니다.',
                 lt: 'Laukinis prasiplės per\nvisą ritę ir suteiks\n1 nemokamą suktuką.',
                 lv: 'Wild simbols izpletīsies pa\nvisu cilindru un sniegs vienu\nbezmaksas griešanas reizi.',
                 nl: 'Een wild breidt uit\nover de hele rol en geeft\n1 gratis draai.',
@@ -107,6 +112,7 @@ var elements =
                 sv: 'En wildsymbol sträcker sig\növer hela hjulet och ger\n1 gratis-spin.',
                 th: '"ไวลด์จะขยาย\nไปทั้งวงล้อ และ\nให้ 1 การหมุนฟรี"',
                 tr: 'Wild semboller tüm\nmakaraya yayılır ve\n1 ücretsiz döndürme verir.',
+                vi: 'Biểu tượng vạn năng\nsẽ mở rộng trên cả guồng\nvà tặng 1 vòng quay miễn phí.',
                 zh: '"百搭标志会扩散\n到整个轮盘，\n并奖励 1 次免费旋转。"'
             }
         },
@@ -126,6 +132,7 @@ var elements =
                 is: '3 eins tákn\ngreiða hvar sem\ner í vinningslínu.',
                 it: '3 simboli uguali\nvincono ovunque su\nuna linea di vincita',
                 ja: '"3のような形をしたシンボルは、\nペイライン上のどこで、\nも有効と見なされます"',
+                ko: '3개의 같은 종류 심볼은 페이\n라인의 어디에서나 지급됩니다',
                 lt: '3 "patinka" simboliai\ngrąžina pinigus bet\nkurioje mokėjimo linijoje',
                 lv: '3 vienādi simboli\nizmaksā jebkur uz\nizmaksu rindas',
                 nl: '3 dezelfde symbolen\nworden overal op een\nwinlijn uitbetaald',
@@ -139,6 +146,7 @@ var elements =
                 sv: '3 likadana symboler\nger utbetalning var som\nhelst på en insatsrad',
                 th: '"สัญลักษณ์ที่ตรงกัน 3 ตัวที่ใดๆ\nจะได้รับรางวัลในแถวการจ่าย"',
                 tr: 'Ödeme çizgisinin herhangi bir\nyerinde açılan 3 benzer\nsembol için ödeme yapılır',
+                vi: 'Nhận thưởng nếu có 3 biểu tượng\ngiống nhau liên tiếp ở vị\ntrí bất kỳ trên hàng thanh toán',
                 zh: '"赔付线任意位置上的 3 个\n同样的符号都可获奖"'
             }
         },
@@ -158,6 +166,7 @@ var elements =
                 is: 'Smelltu til að leika',
                 it: 'Clicca per giocare',
                 ja: 'クリックしてプレイする',
+                ko: '클릭하여 재생',
                 lt: 'Spausti, kad žaistum',
                 lv: 'Klikšķināt, lai spēlētu.',
                 nl: 'Klik om te spelen',
@@ -171,6 +180,7 @@ var elements =
                 sv: 'Klicka för att spela',
                 th: 'คลิกเพื่อเล่น',
                 tr: 'Oynamak için tıkla',
+                vi: 'Bấm để chơi',
                 zh: '点击进行游戏'
             }
         }
@@ -193,6 +203,7 @@ var elements =
                     is: 'Sólar-Wild',
                     it: 'Wild Sole',
                     ja: '太陽のワイルド',
+                    ko: '선 와일드',
                     lt: '"Sun Wild"',
                     lv: 'Sun wild simbols',
                     nl: 'Zonnewild',
@@ -206,6 +217,7 @@ var elements =
                     sv: 'Sol-wildsymbol',
                     th: 'ไวลด์พระอาทิตย์',
                     tr: 'Güneş Wild Sembolü',
+                    vi: 'Biểu tượng vạn năng mặt trời',
                     zh: '百搭太阳'
                 }
             },
@@ -225,6 +237,7 @@ var elements =
                     is: 'Til staðar á öllum hjólum og kemur í stað allra tákna',
                     it: 'È presente su tutti i rulli e sostituisce qualunque simbolo',
                     ja: '"すべてのリールに出現可能ですべてのシンボルの代用になります"',
+                    ko: '모든 릴에 표시되며 모든 심볼을 대체합니다',
                     lt: 'Pristatyta ant visų ričių ir visų simbolių pakeitimų',
                     lv: 'Redzams uz visiem cilindriem un aizvieto visus simbolus',
                     nl: 'Aanwezig op alle rollen en vervangt alle symbolen',
@@ -238,6 +251,7 @@ var elements =
                     sv: 'Finns på alla hjul och ersätter alla symboler',
                     th: '"ปรากฏในทุกวงล้อ และ จะแทนที่ทุกสัญลักษณ์"',
                     tr: 'Tüm makaralarda bulunur ve tüm sembollerin yerine geçer',
+                    vi: 'Xuất hiện trên tất cả các guồng và thay thế cho mọi biểu tượng',
                     zh: '"会在所有轮盘上显示可替代所有标记"'
                 }
             },
@@ -257,6 +271,7 @@ var elements =
                     is: 'Dreifist yfir allt hjólið og heldur yfir',
                     it: 'Si estende sull\'intero rullo e rimane bloccato\'',
                     ja: '"リール全体に 影響します"',
+                    ko: '전체 릴에 확장되어 유지됩니다',
                     lt: 'Plečiasi visoje ritėje ir tęsiasi',
                     lv: 'Izplešas pa visu cilindru un noturas uz tā',
                     nl: 'Breidt uit over de hele rol en blijft staan',
@@ -270,6 +285,7 @@ var elements =
                     sv: 'Sträcker sig över alla hjul och hålls kvar',
                     th: '"ขยายไปเต็มวงล้อ และตรึงอยู่ที่เดิม"',
                     tr: 'Tüm makaraya yayılır ve olduğu yerde kalır',
+                    vi: 'Mở rộng trên cả guồng và giữ nguyên vị trí',
                     zh: '"会扩散至整个轮盘，并固定"'
                 }
             },
@@ -289,6 +305,7 @@ var elements =
                     is: 'Veitir 1 frísnúning',
                     it: 'Conferisce 1 Giro Gratuito',
                     ja: '無料スピン1回獲得',
+                    ko: '시상식 1 회 무료 스핀',
                     lt: 'Apdovanojama 1 nemokamu suktuku',
                     lv: 'Piešķir 1 bezmaksas griezienu',
                     nl: 'Levert 1 gratis draai op',
@@ -302,6 +319,7 @@ var elements =
                     sv: 'Ger 1 gratis-spin',
                     th: 'ได้ 1 ฟรีสปิน',
                     tr: '1 Ücretsiz Döndürme Verir',
+                    vi: 'Giải thưởng 1 spin miễn phí',
                     zh: '奖励 1 次免费旋转'
                 }
             }
@@ -323,6 +341,7 @@ var elements =
                     is: 'Greiðslutafla',
                     it: 'Tabella dei pagamenti',
                     ja: 'ペイテーブル',
+                    ko: '당첨금 표',
                     lt: 'Mokėjimų lentelė',
                     lv: 'Izmaksu tabula',
                     nl: 'Uitbetalingstabel',
@@ -336,6 +355,7 @@ var elements =
                     sv: 'Vinsttabell',
                     th: 'ตารางการจ่าย',
                     tr: 'Ödeme Masası',
+                    vi: 'Bảng trả thưởng',
                     zh: '出彩表'
                 }
             },
@@ -355,6 +375,7 @@ var elements =
                     is: 'Allir vinningar greiða',
                     it: 'Tutte le vincite pagano',
                     ja: '全ての獲得金が支払われます',
+                    ko: '모든 승리 지불',
                     lt: 'Visų laimėjimų mokėjimas',
                     lv: 'Izmaksāti tiek visi laimesti.',
                     nl: 'Alle winsten betalen uit',
@@ -368,6 +389,7 @@ var elements =
                     sv: 'Alla vinster ger betalt',
                     th: 'จะมีการจ่ายให้ทุกรางวัล',
                     tr: 'Tüm kazançlar ödenir',
+                    vi: 'Tất cả tiền thắng',
                     zh: '全胜赔付'
                 }
             }
@@ -389,6 +411,7 @@ var elements =
                     is: 'Vinningslínur',
                     it: 'Linee di pagamento',
                     ja: 'ペイライン',
+                    ko: '유료 라인',
                     lt: 'Mokėjimo linijos',
                     lv: 'Izmaksu rindas',
                     nl: 'Winlijnen',
@@ -402,6 +425,7 @@ var elements =
                     sv: 'Insatsrader',
                     th: 'แถวการจ่าย',
                     tr: 'Ödeme Çizgileri',
+                    vi: 'Dòng trả tiền',
                     zh: '赔付线'
                 }
             },
@@ -431,6 +455,7 @@ var elements =
                     is: '3 eins tákn greiða hvar sem er í vinningslínu.',
                     it: '3 simboli uguali vincono ovunque su una linea di vincita',
                     ja: '"3のような形をしたシンボルは、\nペイライン上のどこでも有効と見なされます"',
+                    ko: '3개의 같은 종류 심볼은 페이\n라인의 어디에서나 지급됩니다',
                     lt: '3 "patinka" simboliai grąžina pinigus bet kurioje mokėjimo linijoje',
                     lv: '3 vienādi simboli izmaksā jebkur uz izmaksu rindas',
                     nl: '3 dezelfde symbolen worden overal op een winlijn uitbetaald',
@@ -444,6 +469,7 @@ var elements =
                     sv: '3 likadana symboler ger utbetalning var som helst på en insatsrad',
                     th: '"สัญลักษณ์ที่ตรงกัน 3 ตัวที่ใดๆจะได้รับรางวัลในแถวการจ่าย"',
                     tr: 'Ödeme çizgisinin herhangi bir yerinde açılan\n3 benzer sembol için ödeme yapılır',
+                    vi: 'Nhận thưởng nếu có 3 biểu tượng giống nhau liên\ntiếp ở vị trí bất kỳ trên hàng thanh toán',
                     zh: '"赔付线任意位置上的 3 个同样的符号都可获奖"'
                 }
             },
@@ -463,6 +489,7 @@ var elements =
                     is: { font: '20px arial' },
                     it: { font: '20px arial' },
                     ja: { font: '18px arial' },
+                    ko: { font: '20px arial' },
                     lt: { font: '20px arial' },
                     lv: { font: '20px arial' },
                     nl: { font: '20px arial' },
@@ -476,6 +503,7 @@ var elements =
                     sv: { font: '20px arial' },
                     th: { font: '20px arial' },
                     tr: { font: '18px arial' },
+                    vi: { font: '20px arial' },
                     zh: { font: '20px arial' }
                 },
                 value: 'System malfunction voids all pays and all plays',
@@ -493,6 +521,7 @@ var elements =
                     is: 'Bilun ógildir alla vinninga og leiki',
                     it: 'Un malfunzionamento del sistema annulla\ntutte le vincite e tutte le giocate',
                     ja: 'システムの支障が、全ての支払いとプレイを妨げています',
+                    ko: '시스템 오작동 voids는 모두 지불하고 모든 놀이',
                     lt: 'Sistemos gedimas panaikina visus mokėjimus ir visus žaidimus',
                     lv: 'Sistēmas kļūmes dēļ tiek atceltas visas izmaksas\nun zaudētas visas spēles.',
                     nl: 'Bij storing vervallen alle uitbetalingen en spellen',
@@ -506,6 +535,7 @@ var elements =
                     sv: 'Systemfel annullerar alla insatser och spelomgångar',
                     th: 'หากระบบมีความผิดพลาด การจ่ายรางวัลและการเล่นทั้งหมดจะเป็นโมฆะ',
                     tr: 'Sistem hatası meydana gelirse tüm ödemeler ve oyunlar iptal edilir',
+                    vi: 'Hệ thống bị trục trặc tất cả các khoản thanh toán và tất cả các lượt phát',
                     zh: '系统故障会让所有支付与游戏无效化'
                 }
             },
@@ -525,6 +555,7 @@ var elements =
                     is: 'RTP',
                     it: 'RTP',
                     ja: 'RTP',
+                    ko: 'RTP',
                     lt: 'RTP',
                     lv: 'RTP',
                     nl: 'RTP',
@@ -538,6 +569,7 @@ var elements =
                     sv: 'RTP',
                     th: 'RTP',
                     tr: 'RTP',
+                    vi: 'RTP',
                     zh: 'RTP'
                 }
             },
@@ -557,6 +589,7 @@ var elements =
                     is: { font: '20px arial' },
                     it: { font: '20px arial' },
                     ja: { font: '20px arial' },
+                    ko: { font: '20px arial' },
                     lt: { font: '20px arial' },
                     lv: { font: '20px arial' },
                     nl: { font: '20px arial' },
@@ -570,6 +603,7 @@ var elements =
                     sv: { font: '20px arial' },
                     th: { font: '20px arial' },
                     tr: { font: '20px arial' },
+                    vi: { font: '20px arial' },
                     zh: { font: '20px arial' }
                 },
                 value: 'V',
@@ -587,6 +621,7 @@ var elements =
                     is: 'V',
                     it: 'V',
                     ja: 'V',
+                    ko: 'V',
                     lt: 'V',
                     lv: 'V',
                     nl: 'V',
@@ -600,6 +635,7 @@ var elements =
                     sv: 'V',
                     th: 'V',
                     tr: 'V',
+                    vi: 'V',
                     zh: 'V'
                  }
             }
@@ -633,6 +669,7 @@ var elements =
                 is: 'Sjálfsspilunarstillingar',
                 it: 'Impostazioni autoplay',
                 ja: 'オートプレイの設定',
+                ko: '자동 플레이 설정',
                 lt: 'Automatinio paleidimo nustatymai',
                 lv: 'Automātiskās spēles iestatījumi',
                 nl: 'Instellingen voor automatisch spelen',
@@ -646,6 +683,7 @@ var elements =
                 sv: 'Inställningar för autospel',
                 th: 'การตั้งค่าการเล่นอัตโนมัติ',
                 tr: 'Otomatik Oyun Ayarları',
+                vi: 'Cài đặt chơi tự động',
                 zh: '自动游戏设定'
             }
         },
@@ -665,6 +703,7 @@ var elements =
                 is: 'Velja',
                 it: 'Seleziona',
                 ja: '選択',
+                ko: '고르다',
                 lt: 'Pasirinkti',
                 lv: 'Izvēlēties',
                 nl: 'Selecteren',
@@ -678,6 +717,7 @@ var elements =
                 sv: 'Välj',
                 th: 'เลือก',
                 tr: 'Seçim',
+                vi: 'Lựa chọn',
                 zh: '选择'
             }
         },
@@ -697,6 +737,7 @@ var elements =
                 is: 'Ótakmarkað',
                 it: 'Illimitati',
                 ja: '無制限',
+                ko: '무한',
                 lt: 'Neribotas',
                 lv: 'Neierobežota',
                 nl: 'Onbeperkt',
@@ -710,6 +751,7 @@ var elements =
                 sv: 'Obegränsat',
                 th: 'ไม่จำกัด',
                 tr: 'Sınırsız',
+                vi: 'Vô hạn',
                 zh: '无限制'
             }
         },
@@ -729,6 +771,7 @@ var elements =
                 is: 'Allt',
                 it: 'Qualunque',
                 ja: 'すべて',
+                ko: '아무것도',
                 lt: 'Bet kuris',
                 lv: 'Jebkuru',
                 nl: 'Willekeurig',
@@ -742,6 +785,7 @@ var elements =
                 sv: 'Ett',
                 th: 'ค่าใดก็ได้',
                 tr: 'Tümü',
+                vi: 'Mọi thứ',
                 zh: '任意'
             }
         },
@@ -761,6 +805,7 @@ var elements =
                 is: 'Já',
                 it: 'Sì',
                 ja: 'はい',
+                ko: '예',
                 lt: 'Taip',
                 lv: 'Jā',
                 nl: 'Ja',
@@ -774,6 +819,7 @@ var elements =
                 sv: 'Ja',
                 th: 'ใช่',
                 tr: 'Evet',
+                vi: 'Vâng',
                 zh: '是'
             }
         },
@@ -793,6 +839,7 @@ var elements =
                 is: 'Nei',
                 it: 'No',
                 ja: 'いいえ',
+                ko: '아니',
                 lt: 'Ne',
                 lv: 'Nē',
                 nl: 'Nee',
@@ -806,6 +853,7 @@ var elements =
                 sv: 'Nej',
                 th: 'ไม่ใช่',
                 tr: 'Hayır',
+                vi: 'Không',
                 zh: '否'
             }
         },
@@ -832,6 +880,7 @@ var elements =
                         is: 'Fjöldi leikja',
                         it: 'Numero di giocate',
                         ja: 'プレイ数',
+                        ko: '재생 횟수',
                         lt: 'Žaidimų kiekis',
                         lv: 'Spēļu skaits',
                         nl: 'Aantal spellen',
@@ -845,6 +894,7 @@ var elements =
                         sv: 'Antal omgångar',
                         th: 'จำนวนการเล่น',
                         tr: 'Oyun Sayısı',
+                        vi: 'Số lượt phát',
                         zh: '局数'
                     }
                 }
@@ -871,6 +921,7 @@ var elements =
                         is: 'Mörk taps',
                         it: 'Limite perdite',
                         ja: '負けの上限',
+                        ko: '손실 한도',
                         lt: 'Nuostolio riba',
                         lv: 'Zaudējumu ierobežojums',
                         nl: 'Verlieslimiet',
@@ -884,6 +935,7 @@ var elements =
                         sv: 'Förlustgräns',
                         th: 'ขีดจำกัดการเสีย',
                         tr: 'Kayıp Limiti',
+                        vi: 'Giới hạn mất',
                         zh: '损失限制'
                     }
                 }
@@ -910,6 +962,7 @@ var elements =
                         is: 'Stök vinningsmörk',
                         it: 'Limite vincita singola',
                         ja: '1回の勝ちの上限',
+                        ko: '단일 승수 제한',
                         lt: 'Vieno laimėjimo riba',
                         lv: 'Viena laimesta maksimālā summa',
                         nl: 'Limiet voor enkele winst',
@@ -923,6 +976,7 @@ var elements =
                         sv: 'Enkelvinstgräns',
                         th: 'ขีดจำกัดการชนะครั้งเดียว',
                         tr: 'Tek Kazanç Limiti',
+                        vi: 'Giới hạn chiến thắng đơn lẻ',
                         zh: '单场奖金限制'
                     }
                 }
@@ -949,6 +1003,7 @@ var elements =
                         is: 'Stöðva við vinning',
                         it: 'Smetti alla vincita',
                         ja: '勝った時に停止',
+                        ko: '이득시 멈추다',
                         lt: 'Sustabdyti laimėjimą',
                         lv: 'Apturēt laimesta gadījumā',
                         nl: 'Stop bij winst',
@@ -962,6 +1017,7 @@ var elements =
                         sv: 'Stanna vid vinst',
                         th: 'หยุดเมื่อชนะ',
                         tr: 'Kazanınca Dur',
+                        vi: 'Tạm dừng thắng',
                         zh: '获胜时停止'
                     }
                 }
